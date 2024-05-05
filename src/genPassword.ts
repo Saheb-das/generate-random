@@ -2,14 +2,7 @@ import { lowerCase, number, symbol, upperCase, myOptions } from "./constant.js";
 import { genRandNum } from "./utils/genRandNumber.js";
 import { suffleStr } from "./utils/suffleStr.js";
 
-type OptionsType = {
-  lowerCase?: boolean;
-  upperCase?: boolean;
-  number?: boolean;
-  symbol?: boolean;
-};
-
-function generatePass(
+export function generatePass(
   length = 8,
   options?: {
     lowerCase?: boolean;
@@ -59,5 +52,3 @@ function generatePass(
 
   return password;
 }
-
-export default { generatePass };

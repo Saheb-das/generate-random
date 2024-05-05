@@ -2,7 +2,10 @@ import { lowerCase, upperCase, number, symbol } from "./constant.js";
 import { genRandNum } from "./utils/genRandNumber.js";
 import { suffleStr } from "./utils/suffleStr.js";
 
-function generateId(idLength: number = 14, specialChar: boolean = false) {
+export function generateId(
+  idLength: number = 14,
+  specialChar: boolean = false
+) {
   let id = "";
   let srcString = lowerCase + upperCase + number;
 
@@ -19,5 +22,3 @@ function generateId(idLength: number = 14, specialChar: boolean = false) {
 
   return id;
 }
-
-export default { generateId };
