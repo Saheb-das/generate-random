@@ -1,6 +1,6 @@
 {
   "name": "@cranet/gen-random",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A library use to generate id, password and hex-code",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
