@@ -1,7 +1,7 @@
 {
   "name": "gen-random",
   "version": "1.0.0",
-  "description": "generate id, password and hex-code",
+  "description": "A library use to generate id, password and hex-code",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "type": "module",
