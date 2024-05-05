@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "generate id, password and hex-code",
   "main": "dist/index.js",
+  "module": "dist/index.mjs",
   "type": "module",
+  "types": "dist/index.d.ts",
   "scripts": {
     "start": "node dist/index.js",
     "build": "tsc",
