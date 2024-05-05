@@ -1,0 +1,30 @@
+{
+  "name": "gen-random",
+  "version": "1.0.0",
+  "description": "generate id, password and hex-code",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Saheb-das/generate-random"
+  },
+  "homepage": "https://github.com/Saheb-das/generate-random#readme",
+  "keywords": [
+    "shortid",
+    "id generator",
+    "generate random string"
+  ],
+  "author": "Saheb Das",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  },
+  "files": [
+    "dist/**/*"
+  ]
+}
