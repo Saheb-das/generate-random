@@ -20,4 +20,4 @@ function generateId(idLength: number = 14, specialChar: boolean = false) {
   return id;
 }
 
-export { generateId };
+export default { generateId };

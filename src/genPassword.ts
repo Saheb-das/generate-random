@@ -60,4 +60,4 @@ function generatePass(
   return password;
 }
 
-export { generatePass };
+export default { generatePass };

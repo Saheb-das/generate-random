@@ -9,4 +9,4 @@ function generateHexCode() {
   return `#${hexColorCode}`;
 }
 
-export { generateHexCode };
+export default { generateHexCode };
