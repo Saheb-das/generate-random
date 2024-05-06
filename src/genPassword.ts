@@ -46,8 +46,6 @@ function generatePass(
     password += allChar.charAt(genRandNum(allCharLen));
   }
 
-  console.log("password:", password);
-
   password = suffleStr(password);
 
   return password;
